@@ -21,7 +21,7 @@ CFLAGS=-g -Wall
 # Now define any additional directories that contain header files
 # other than those dound in /usr/include
 
-INCLUDES=-I/opt/vc/include -I/opt/vc/include/interface/vmcs_host/linux\
+INCLUDES= #-I/opt/vc/include -I/opt/vc/include/interface/vmcs_host/linux\
 				 -I/opt/vc/include/interface/vcos/pthreads
 
 
@@ -33,13 +33,13 @@ LFLAGS=
 # Now define any additional libraries to link to the executable, for example: -
 # -lm -lasound
 
-LIBS=-lshapes
+LIBS=#-lshapes
 
 
 # Now name the target executable. That is, the name of the output file.
 # This needs to be the same as the input file but without the ".c".
 
-TARGET=hello-world-OpenVG
+TARGET=TEST
 
 # The following processes the above information and should NOT be altered: -
 
