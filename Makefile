@@ -37,7 +37,7 @@ LIBS=-lshapes
 
 # Now name the target executable. That is, the name of the output file.
 
-TARGET=helloworld
+TARGET=hello-world-OpenVG
 
 
 # The following processes the above information and should NOT be altered: -
