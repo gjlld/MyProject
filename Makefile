@@ -21,7 +21,8 @@ CFLAGS=-g -Wall
 # Now define any additional directories that contain header files
 # other than those dound in /usr/include
 
-INCLUDES=-I/opt/vc/include -I/opt/vc/include/interface/vmcs_host/linux -I/opt/vc/include/interface/vcos/pthreads
+INCLUDES=-I/opt/vc/include -I/opt/vc/include/interface/vmcs_host/linux\
+				 -I/opt/vc/include/interface/vcos/pthreads
 
 
 # Now define library paths in addition to the standard /usr/lib
@@ -36,9 +37,9 @@ LIBS=-lshapes
 
 
 # Now name the target executable. That is, the name of the output file.
+# This needs to be the same as the input file but without the ".c".
 
 TARGET=hello-world-OpenVG
-
 
 # The following processes the above information and should NOT be altered: -
 
